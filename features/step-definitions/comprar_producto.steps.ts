@@ -16,9 +16,9 @@ Given('{actor} abre la tienda virtual', async actor =>
 
 );
 
-When('{actor} agrega un teléfono {string} al carrito', async (actor, producto: string) =>
+When('{actor} agrega un articulo {string} al carrito en la categoria {string}', async (actor, producto: string,categoria:string) =>
     actor.attemptsTo(
-        ComprarProducto.enCategoria('Phones', producto),
+        ComprarProducto.enCategoria(categoria, producto),
         Log.the(`${actor.name} espera un segundo`), 
         Wait.for(Duration.ofSeconds(1))  // Esperar 1 segundo
     )
