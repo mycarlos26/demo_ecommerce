@@ -9,7 +9,11 @@ npx cucumber-js --tags @comprar && npx serenity-bdd run && npx http-server -p 80
 
 npx cucumber-js --tags @compra_variada
 npx cucumber-js --tags @comppra_dual
-
+npx cucumber-js --tags @creacion_usuario
+npx cucumber-js --tags @usuario_existente
+npx cucumber-js --tags @login_exitoso 
+npx cucumber-js --tags @login_fallido
+npx cucumber-js --tags @login_and_buy
 ## Usage
 
 

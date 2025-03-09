@@ -62,6 +62,6 @@ export class EcommercePage {
         PageElement.located(By.id('signin2')).describedAs('el enlace de registro');
     
     static loginLink = () =>
-        PageElement.located(By.css('login2')).describedAs('el enlace de inicio de sesión');
+        PageElement.located(By.id('login2')).describedAs('el enlace de inicio de sesión');
 
 }
