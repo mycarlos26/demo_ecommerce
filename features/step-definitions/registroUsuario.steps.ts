@@ -1,6 +1,6 @@
 import { Given, When, Then , Before} from '@cucumber/cucumber';
 import { Ensure, equals } from '@serenity-js/assertions';
-import { actorInTheSpotlight, Log, Wait, Duration } from '@serenity-js/core';
+import {  Log, Wait, Duration } from '@serenity-js/core';
 import { RegistrarUsuario, } from '../../test/registrar';
 import { VerificarMensaje } from '../../test/questions/VerificarMensaje';
 

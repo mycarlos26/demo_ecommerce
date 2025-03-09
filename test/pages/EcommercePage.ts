@@ -1,4 +1,4 @@
-import { PageElement, By, PageElements } from '@serenity-js/web';
+import { PageElement, By } from '@serenity-js/web';
 
 export class EcommercePage {
     static homeLink = () =>

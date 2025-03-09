@@ -1,11 +1,10 @@
 import { Given, When, Then } from '@cucumber/cucumber';
-import { actorCalled } from '@serenity-js/core';
 import { Ensure, equals } from '@serenity-js/assertions';
 import { ComprarProducto } from '../../test/comprar/ComprarProducto';
 import { ProcederCompra } from '../../test/comprar/ProcederCompra';
 import { VerificarCompraExitosa } from '../../test/comprar/VerificarCompraExitosa';
 import { Navigate } from '@serenity-js/web';
-import { Task, Wait, Duration,Log} from '@serenity-js/core';
+import { Wait, Duration,Log} from '@serenity-js/core';
 
 Given('{actor} abre la tienda virtual', async actor =>
     actor.attemptsTo(

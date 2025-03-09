@@ -1,5 +1,5 @@
 import { Task } from '@serenity-js/core';
-import { By, Click, Enter, ModalDialog, PageElement } from '@serenity-js/web';
+import { Click, Enter, ModalDialog } from '@serenity-js/web';
 import { EcommercePage } from '../pages';
 
 export const RegistrarUsuario = {
