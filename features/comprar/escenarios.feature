@@ -4,7 +4,7 @@ Feature: Manejo de Usuarios y Compras en la Tienda Virtual
   @creacion_usuario
   Scenario: Registro exitoso de un usuario no registrado
     Given Bob abre la tienda virtual
-    When Bob intenta registrar un usuario llamado "testuser_unique" con contraseña "TestPassword123"
+    When Bob intenta registrar un usuario llamado "testuser_{timestamp}" con contraseña "TestPassword123"
     Then Bob debería ver un mensaje de registro exitoso
 
   @usuario_existente
