@@ -6,9 +6,9 @@ npx serenity-bdd run
 
 npx cucumber-js --tags @comprar && npx serenity-bdd run && npx http-server -p 8080 target/site/serenity -s -o
 
-npx cucumber-js --tags @comprar-telefono
-npx cucumber-js --tags @comprar-laptop
 
+npx cucumber-js --tags @compra_variada
+npx cucumber-js --tags @comppra_dual
 
 ## Usage
 

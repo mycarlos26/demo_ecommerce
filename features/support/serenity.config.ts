@@ -28,6 +28,7 @@ BeforeAll(async () => {
     // Serenity/JS will take care of managing Playwright browser context and browser tabs.
     browser = await playwright.chromium.launch({
         headless: false,
+        slowMo: 500,
     });
 
     // Configure Serenity/JS

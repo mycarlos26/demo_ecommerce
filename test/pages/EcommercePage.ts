@@ -39,4 +39,29 @@ export class EcommercePage {
 
     static productItem = (product: string) =>
         PageElement.located(By.css(`a:has-text("${product}")`)).describedAs(`el producto ${product}`);
+    
+    static loginUsernameField = (loginUsernameField:string) =>
+        PageElement.located(By.id('loginusername')).describedAs(`el campo de usuario ${loginUsernameField}`);
+    
+    static loginPasswordField = (loginPasswordField:string) =>
+        PageElement.located(By.id('loginpassword')).describedAs(`el campo de contraseña ${loginPasswordField}`);
+    
+    static loginButton = () =>
+        PageElement.located(By.css('button[onclick="logIn()"]')).describedAs('el botón de inicio de sesión');
+    
+    static signUpUsernameField = (signUpUsernameField:string) =>
+        PageElement.located(By.id('sign-username')).describedAs(`el campo de usuario ${signUpUsernameField}`);
+    
+    static signUpPasswordField = (signUpPasswordField:string) =>
+        PageElement.located(By.id('sign-password')).describedAs(`el campo de contraseña ${signUpPasswordField}`);
+    
+    static signUpButton = () =>
+        PageElement.located(By.css('button[onclick="register()"]')).describedAs('el botón de registro');
+    
+    static signUpLink = () =>
+        PageElement.located(By.id('signin2')).describedAs('el enlace de registro');
+    
+    static loginLink = () =>
+        PageElement.located(By.css('login2')).describedAs('el enlace de inicio de sesión');
+
 }
