@@ -14,7 +14,7 @@ Feature: Comprar producto en la tienda virtual
       | Apple monitor 24  | Monitors  |
 
   @comppra_dual
-  Scenario: Compra sin iniciar sesión - Diferentes articulos
+  Scenario: Comprar dos articulos de la categorias diferentes
     Given Bob abre la tienda virtual
     When Bob agrega un articulo "Sony vaio i5" al carrito en la categoria "Laptops"
     When Bob agrega un articulo "Samsung galaxy s6" al carrito en la categoria "Phones"
