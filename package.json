@@ -1,5 +1,5 @@
 {
-  "name": "serenity-js-cucumber-playwright-template",
+  "name": "demo-ecommerce",
   "version": "3.0.0",
   "description": "",
   "main": "index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/serenity-js/serenity-js-cucumber-playwright-template.git"
+    "url": "git+https://github.com/mycarlos26/demo_ecommerce.git"
   },
   "keywords": [
     "serenity-js",
@@ -24,12 +24,8 @@
     "playwright",
     "playwright-test"
   ],
-  "author": "Jan Molak <jan.molak@smartcodeltd.co.uk>",
+  "author": "Carlos",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/serenity-js/serenity-js-cucumber-playwright-template/issues"
-  },
-  "homepage": "https://serenity-js.org",
   "engines": {
     "node": "^18.12 || ^20 || ^22"
   },
